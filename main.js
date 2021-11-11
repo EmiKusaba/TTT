@@ -4,14 +4,6 @@ let currentPlayer = player1;
 
 
 const play = (e) => {
-  // currentElement = e;
-  // if (isEmpty(e)) {
-  //   e.innerHTML = pions[currentPlayer];
-  //   currentPlayer = (currentPlayer == 1) ? 2 : 1;
-  //   if (checkWin(e) != "") {
-  //     endGame(checkWhoWin(e));
-  //   }
-  // }
 
   e.innerHTML = currentPlayer
 
