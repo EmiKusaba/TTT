@@ -3,12 +3,12 @@ let player1 = "X";
 let player2 = "O";
 let count = 0;
 
-//function when button click and mark
-
 //function mark x or o
-
+const addMarker = () => {
+  const currentMarker = document.getElementById
+}
 //win state
-function checkWin(record, player) {
+const checkWin = (record, player) => {
   if (
   //horizonal win
   (record[0] === player && record[1] === player && record[2] === player) ||
@@ -27,5 +27,10 @@ function checkWin(record, player) {
     return false;
   }
 }
-
+//draw state
+const checkDraw = () => {
+  if (moves === 9){
+    draw();
+  }
+}
 //clear button
